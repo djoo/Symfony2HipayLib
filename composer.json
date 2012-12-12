@@ -1,0 +1,37 @@
+{
+  "name": "djoo/Symfony2HipayLib",
+  "description": "Lib developped by Himedia for payment with Hipay and How to Use in Symfony2",
+  "keywords": [
+    "hipay",
+    "symfony2"
+  ],
+  "homepage": "http://www.hipay.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Johann ROCHE",
+      "email": "johann.roche@gmail.com",
+      "homepage": "http://www.johann-roche.com"
+    }
+  ],
+  "config": {
+    "bin-dir": "bin"
+  },
+  "require": {
+    "php": ">=5.3.2"
+  },
+  "repositories": [
+    {
+        "type": "vcs",
+        "url": "git://github.com/djoo/Symfony2HipayLib.git"
+    }
+  ],
+  "require-dev": {
+    "djoo/djoo": "dev-master"
+  },
+  "autoload": {
+    "psr-0": {
+      "Hipay": "lib/"
+    }
+  }
+}
