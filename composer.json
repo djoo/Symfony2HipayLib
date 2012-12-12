@@ -27,7 +27,7 @@
     }
   ],
   "require-dev": {
-    "djoo/djoo": "dev-master"
+    "djoo/symfony2hipaylib": "dev-master"
   },
   "autoload": {
     "psr-0": {
