@@ -11,6 +11,13 @@
       "homepage": "http://github.com/djoo/"
     }
   ],
+  "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/djoo/Symfony2HipayLib.git",
+            "packagist": false
+        }
+    ],
   "require": {
     "php": ">=5.2.6"
   },
