@@ -4,6 +4,8 @@ Symfony2HipayLib
 This is a package who contains libraries of the payment method Hipay. This is for use in a Symfony2 Application.
 It's not a bundle with method, just the libraries of Hipay ready to use in Symfony2.
 
+The folder lib is the same of the lib provided by Hipay. I don't change the files.
+
 
 How to use ?
 
