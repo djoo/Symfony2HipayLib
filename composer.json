@@ -24,5 +24,4 @@
   "autoload": {
       "psr-0": { "Djoo\\symfony2hipaylib": "" }
   },
-  "target-dir": "Djoo/symfony2hipaylib"
 }
