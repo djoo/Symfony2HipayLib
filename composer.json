@@ -13,7 +13,7 @@
   ],
   "repositories": [
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/djoo/Symfony2HipayLib.git",
             "packagist": false
         }
