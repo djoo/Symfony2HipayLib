@@ -8,14 +8,15 @@ It's not a bundle with method, just the libraries of Hipay ready to use in Symfo
 How to use ?
 
 Install with composer :
-
+<pre>
 "require": {
   "djoo/symfony2hipaylib": "*"
 }
+</pre>
 
 
 Configure your app/autoload.php
-
+<pre>
 <?php
 
 use Doctrine\Common\Annotations\AnnotationRegistry;
@@ -38,18 +39,19 @@ AnnotationRegistry::registerLoader(array($loader, 'loadClass'));
 require __DIR__.'/../vendor/djoo/symfony2hipaylib/lib/hipay/mapi_package.php'; //Add This line
 
 return $loader;
-
+</pre>
 
 
 And after in your controller you can use the method developped by Hipay.
 Don't forget to use this at the top of your controller :
-use HIPAY;
+
+<pre>use HIPAY;</pre>
 
 And if you need to call method of Hipay can use this for example :
-$params = new \HIPAY_MAPI_PaymentParams();
+<pre>$params = new \HIPAY_MAPI_PaymentParams();</pre>
 
 Idem for static method :
-$output = \HIPAY_MAPI_SEND_XML::sendXML($xmlTx,$urlHipay);
+<pre>$output = \HIPAY_MAPI_SEND_XML::sendXML($xmlTx,$urlHipay);</pre>
 
 
 
