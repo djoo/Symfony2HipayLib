@@ -1,6 +1,23 @@
 {
     "name": "djoo/symfony2hipaylib",
+    "type": "symfony-bundle",
+    "description": "Symfony2 Librairies for Hipay",
+    "keywords": ["hipay"],
+    "homepage": "http://www.hipay.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Djoo",
+            "homepage": "https://github.com/djoo"
+        }
+    ],
+    "minimum-stability": "dev",
     "require": {
-        "php": ">=5.3.0"
-    }
+        "php": ">=5.3.2",
+        "symfony/symfony": "2.1.*
+    },
+    "autoload": {
+        "psr-0": { "djoo\\Himedia": "" }
+    },
+    "target-dir": "Djoo/Himedia"
 }
